@@ -1,0 +1,84 @@
+@charset "UTF-8";
+
+img {
+  width: 100%;
+}
+
+@media screen and (min-width: 960px) {
+  img {
+    max-width: 1200px;
+  }
+}
+
+header {
+    display: flex;
+    align-items:center; 
+    
+    width: 100%;
+ }
+
+ body {   
+  text-align: left;
+  padding: 0px 30px;
+}
+
+
+
+
+
+ /*
+ .shoukai>* {
+   flex: 1 1 160px;
+ }
+ p,h1,h3,a{
+  font-family: "Arial","游ゴシック","ヒラギノ角ゴ ProN",sans-serif;
+}*/
+
+ h1 {
+  
+  /*線の種類（点線）2px 線色*/
+  border-bottom: dashed 2px #BDB9D4;
+}
+
+.access {
+  display: flex;
+  flex-wrap:wrap;
+}
+
+
+ .footer01 {
+   color: #808080;
+   background: #e5e5e5;
+   padding: 30px;
+  }
+  .footer01 a {
+   color: #808080;
+   text-decoration: none;
+  }
+  .footer01 a:hover {
+   text-decoration: underline;
+  }
+  .footer01 .menu {
+   margin: 0;
+   padding: 0;
+   list-style: none;
+   display: flex;
+   flex-wrap: wrap;
+  }
+  .footer01 .menu li {
+   margin: 0;
+   padding: 0 20px 0 0;
+  }
+  .footer01 .copyright {
+   margin: 0;
+   padding: 20px 0 0 0;
+  }
+
+  .box {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  
+ 
