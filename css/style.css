@@ -55,6 +55,15 @@ h1 {
   padding:0px 30px;
 }
 
+.uma {
+  font-family: "MS 明朝";
+}
+
+.uma span {
+  font-weight: bold;
+  font-size: 28px;
+}
+
 .card{
   margin: 1%; 
   width: 400px;
@@ -93,26 +102,6 @@ h1 {
   display: flex;
 }
 
- /*
- .shoukai1 {
-  text-align: left;
-  display: flex;
-  margin:50px;
- }
- .shoukai2 {
-  display: flex;
-  margin:50px; 
- }
- 
-.bb1 {
-  margin:20px;
-}
-
-.bb2 { 
-  margin:20px;
-
-}*/
-
  p,h1,h3,a{
   font-family: "Arial","游ゴシック","ヒラギノ角ゴ ProN",sans-serif;
 }
@@ -125,7 +114,7 @@ h1 {
 .access {
   display: flex;
   justify-content: center;
-  flex-wrap: wrap; 
+  
 }
 
 .access .text {
