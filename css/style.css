@@ -55,9 +55,13 @@ h1 {
   padding:0px 30px;
 }
 
+.otoku {
+  font-weight: bold;
+  font-size: 28px;
+}
+
 .uma {
-  font-family: "ヒラギノ明朝 ProN W6";
-  font-size: 18px;
+  font-size: 20px;
 }
 
 .uma span {
@@ -103,8 +107,12 @@ h1 {
   display: flex;
 }
 
- p,h1,h3,a{
+ /*p,h1,h3,a{
   font-family: "Arial","游ゴシック","ヒラギノ角ゴ ProN",sans-serif;
+}*/
+
+p,h1,a {
+  font-family: "ヒラギノ角ゴ ProN";
 }
 
  h1 {
